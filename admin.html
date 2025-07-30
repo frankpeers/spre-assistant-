@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SPRE Admin Console</title>
+  <style>
+    body {
+      background: black;
+      color: white;
+      font-family: sans-serif;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+      color: #10b981;
+    }
+    .admin-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .admin-card {
+      background: #111;
+      border: 1px solid #10b981;
+      border-radius: 16px;
+      padding: 20px;
+      text-align: left;
+    }
+    .admin-card h2 {
+      margin-top: 0;
+      color: #10b981;
+    }
+    .admin-card p {
+      font-size: 14px;
+      color: #ccc;
+    }
+    .admin-card .button {
+      margin-top: 15px;
+      display: inline-block;
+      padding: 8px 14px;
+      background: #10b981;
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .status-list {
+      list-style: none;
+      padding: 0;
+      color: #ccc;
+    }
+    .status-list li {
+      margin: 6px 0;
+    }
+    a.back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: #10b981;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔐 SPRE Admin Console</h1>
+  <div class="admin-grid">
+    <div class="admin-card">
+      <h2>📦 Full Backup</h2>
+      <p>Export all platform files, pages, and data for offline use.</p>
+      <a href="#" class="button">Download ZIP</a>
+    </div>
+    <div class="admin-card">
+      <h2>🔁 Trigger Redeploy</h2>
+      <p>Manually redeploy the current platform state.</p>
+      <a href="#" class="button">Trigger Now</a>
+    </div>
+    <div class="admin-card">
+      <h2>📊 System Status</h2>
+      <ul class="status-list">
+        <li>Coil Array: ✅</li>
+        <li>Quantum Chip: ✅</li>
+        <li>Control Layer: ✅</li>
+        <li>Energy Capture: ✅</li>
+        <li>Field Emission: ✅</li>
+      </ul>
+    </div>
+    <div class="admin-card">
+      <h2>🧠 AI Core</h2>
+      <ul class="status-list">
+        <li>ADAM: ✅ Online</li>
+        <li>EVE: ✅ Online</li>
+      </ul>
+    </div>
+  </div>
+  <a href="index.html" class="back-link">← Back to Home</a>
+</body>
+</html>

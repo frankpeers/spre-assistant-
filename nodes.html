@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SPRE Node Grid</title>
+  <style>
+    body {
+      background: black;
+      color: white;
+      font-family: sans-serif;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+    }
+    .node-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .node-card {
+      background: #111;
+      border: 1px solid #10b981;
+      border-radius: 16px;
+      padding: 20px;
+      text-align: left;
+    }
+    .node-card h2 {
+      margin: 0 0 10px;
+      color: #10b981;
+    }
+    .node-card p {
+      font-size: 14px;
+      color: #ccc;
+    }
+    .status {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    a.back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: #10b981;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌐 SPRE Node Grid</h1>
+  <div class="node-grid">
+
+    <div class="node-card">
+      <h2>Node 1 — Giza</h2>
+      <p>Location: Egypt</p>
+      <p class="status">✅ Synced</p>
+    </div>
+    
+
+    <div class="node-card">
+      <h2>Node 2 — Uluru</h2>
+      <p>Location: Australia</p>
+      <p class="status">🟢 Pulse Active</p>
+    </div>
+    
+
+    <div class="node-card">
+      <h2>Node 3 — Teotihuacan</h2>
+      <p>Location: Mexico</p>
+      <p class="status">✅ Synced</p>
+    </div>
+    
+
+    <div class="node-card">
+      <h2>Node 4 — Angkor Wat</h2>
+      <p>Location: Cambodia</p>
+      <p class="status">⚫ Dormant</p>
+    </div>
+    
+
+    <div class="node-card">
+      <h2>Node 5 — Nazca</h2>
+      <p>Location: Peru</p>
+      <p class="status">🟢 Pulse Active</p>
+    </div>
+    
+
+    <div class="node-card">
+      <h2>Node 6 — Stonehenge</h2>
+      <p>Location: UK</p>
+      <p class="status">✅ Synced</p>
+    </div>
+    
+
+    <div class="node-card">
+      <h2>Node 7 — Easter Island</h2>
+      <p>Location: Pacific Ocean</p>
+      <p class="status">⚫ Dormant</p>
+    </div>
+    
+
+    <div class="node-card">
+      <h2>Node 8 — Mt. Kailash</h2>
+      <p>Location: Tibet</p>
+      <p class="status">✅ Synced</p>
+    </div>
+    
+
+    <div class="node-card">
+      <h2>Node 9 — Tiahuanaco</h2>
+      <p>Location: Bolivia</p>
+      <p class="status">🟢 Pulse Active</p>
+    </div>
+    
+
+    <div class="node-card">
+      <h2>Node 10 — Great Zimbabwe</h2>
+      <p>Location: Africa</p>
+      <p class="status">✅ Synced</p>
+    </div>
+    
+
+    <div class="node-card">
+      <h2>Node 11 — Baalbek</h2>
+      <p>Location: Lebanon</p>
+      <p class="status">🟢 Pulse Active</p>
+    </div>
+    
+
+    <div class="node-card">
+      <h2>Node 12 — Antarctica Array</h2>
+      <p>Location: South Pole</p>
+      <p class="status">⚫ Dormant</p>
+    </div>
+    
+  </div>
+  <a href="index.html" class="back-link">← Back to Home</a>
+</body>
+</html>
